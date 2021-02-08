@@ -1,0 +1,131 @@
+.row-container-header-text {color: #ffffff}
+
+.row-container-paragraph-text {color: #cccccc}
+
+.row-container-column {
+  flex: 0 0 33%;
+  max-width: 33%;position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 4px;
+  padding-left: 4px;
+}
+
+.rs-animation-hover {
+  background-color: #212121;
+  padding: 25px 17px 17px;
+  position: relative;
+  box-shadow: 0 4px 2px -2px #000000;
+  z-index: 111;
+  margin-top: -30px;
+  transition: all 0.3s ease 0s;
+}
+
+.services-icon {
+  height: 130px;
+  width: 130px;
+  background-color: #212121;
+  line-height: 88px;
+  text-align: center;
+  position: absolute;
+  top: -50px;
+  z-index: -1;
+  font-size: 40px;
+  border-radius: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #ff3115;
+  transition: all 0.3s ease 0s;
+}
+
+/*.hover-change-color:hover {background-color: #ff3115}*/
+.rs-services-style1 .services-item:hover {
+  background-color: #ff3115;
+}
+
+.rs-services-style1 .services-item:hover .services-icon {
+  background-color: #ff3115;
+}
+
+.rs-services-style1 .services-item:hover .change-hover-color {
+  color: #ffffff;
+}
+
+.sidebar-area .cate-box ul {
+  padding: 0;
+  margin: 0;
+}
+
+.sec-spacer {
+  background-color: #f9f9f9;
+  padding: 40px 0;
+}
+
+. rs-courses .container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+. rs-courses .container .row {
+  flex-wrap: wrap;
+  margin-right: -4px;
+  margin-left: -2px;
+}
+.sidebar-area .cate-box {
+  margin-bottom: 5px;
+}
+
+.cate-box > h2 {
+  font-size: 24px;font-family: 'Roboto Condensed', sans-serif;color: #004080; margin: 0 0 26px;font-weight: 700;
+}
+
+.sidebar-area .cate-box ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: outside none none;
+}
+
+.sidebar-area .cate-box ul li:first-child {
+  padding-top: 0;
+}
+
+.sidebar-area .cate-box ul li {
+  list-style: none;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+.sidebar-area .cate-box ul li a {
+  color: #004080;
+  padding: 0 0 0 5px;
+}
+
+.sidebar-area .cate-box ul li a:hover{
+  color: #ff3115;
+  transition: all 0.3s ease 0s;
+  text-decoration: none !important;
+  outline: none !important;
+}
+.marq {
+  padding-top:30px;
+  padding-bottom:30px;
+}
+.primary-btn{
+  display: inline-block;
+  height: 40px;
+  margin: 4px;
+  text-align: center;
+  min-width: 136px;
+  padding: 7px 15px 15px 15px;
+  color: #fff;
+  transition: all 0.3s ease 0s;
+  font-weight: 600;
+  background: #004080;
+}

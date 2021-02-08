@@ -1,0 +1,65 @@
+<header>
+  <div class="header-top col-sm-12" style="padding: 25px 0 20px;background: radial-gradient(#1e0a0d, transparent);">
+    <div class="logo-area col-sm-2" style="padding-top: 5px;">
+      <!--<img src="assets/images/school_logo.png" alt="logo" width="100px;" height="100px;">-->
+    </div>
+    <div class="col-sm-8 text-center header-title"><h1 class="header-title-heading" style="font-size: 50px;font-weight: bolder;">Future Pride Public School</h1>
+    </div>
+    <div class="col-sm-2"><h3 style="margin-top: 65px;
+    margin-left: -260px;font-style: italic;">where learning begins</h3></div>
+  </div>
+
+  <div class="col-sm-12" style="padding-left: 0px; padding-right: 0px;">
+    <nav class="navbar navbar-inverse">
+    <div class="container" style="margin-left: auto">
+      <ul class="nav navbar-nav">
+        <li class=""><a href="#" class="header-font">HOME</a></li>
+        <li class="dropdown">
+            <a class="nav-link dropdown-toggle" style="font-family: 'Roboto Condensed', sans-serif;" href="#" id="navbarDropdown_aboutUs" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              ABOUT US <i class="fa fa-caret-right" style=""></i>
+            </a>
+            <div class="dropdown-content" style="width: 300px;">
+              <a href="#">About Our School</a>
+              <a href="#">School Management</a>
+              <a href="#">Principal</a>
+            </div>
+        </li>
+        <li class="dropdown">
+          <a class="nav-link dropdown-toggle" style="font-family: 'Roboto Condensed', sans-serif;" href="#" id="navbarDropdown_admission" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            ADMISSION <i class="fa fa-caret-right" style=""></i>
+          </a>
+          <div class="dropdown-content" style="width: 300px;">
+            <a href="#">Admission Guidelines</a>
+            <a href="#">Discipline</a>
+            <a href="#">Admission Period</a>
+          </div>
+        </li>
+        <li class=""><a href="#" class="header-font">ENROLLMENT</a></li>
+        <li class="dropdown">
+          <a class="nav-link dropdown-toggle" style="font-family: 'Roboto Condensed', sans-serif;" href="#" id="navbarDropdown_achievements" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            ACHIEVEMENTS <i class="fa fa-caret-right" style=""></i>
+          </a>
+          <div class="dropdown-content" style="width: 300px;">
+            <a href="#">Alumni</a>
+            <a href="#">Board Results</a>
+            <a href="#">Game & Sports</a>
+          </div>
+        </li>
+        <li class=""><a href="#" class="header-font">COMMITTEE MEMBERS</a></li>
+
+      </ul>
+    </div>
+  </nav>
+  </div>
+  <div style="width: 100%; height: auto; text-align:center;margin:0; padding:0;">
+    <ng-image-slider #nav
+                     [images]="imageObject"
+                     [infinite]="false"
+                     [autoSlide]="1"
+                     [imageSize]="{width: '100%', height: 500}"
+                     [animationSpeed]="0.5"
+                     slideImage="1">
+
+    </ng-image-slider>
+  </div>
+</header>
